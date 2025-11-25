@@ -11,3 +11,9 @@ Key features:
 - Visual feedback with automatic scrolling to highlight star activity.
 
 The app also includes a back-to-top button for easy navigation and a clean, user-friendly interface for managing student data.
+
+# Installation
+Just copy all of the files into the same folder on your computer. Then doubleclick on the index.html file.
+
+# How to Use
+First you will need to enroll your students into the app. Click on the "Enroll Student" button and type a student's name in the window that pops up. Now click on the "Record Name" button and you will need to say the name of that student into the computers microphnoe ten times so that the app will be able to recognize this students name when it is heard. Repeat this step for all of your students. Once all of your students are enrolled, now you can award a star to a student simply by holding down the spacebar and saying the student's name. You can also manually award/remove a star by clicking on the corresponding buttons in the actions column. If a particular student is not being recognized, you can re-record the samples by clicking on the "Re-record Samples" button in the actions column. Again, you will need to say the name of that student into the computers microphone ten times.
