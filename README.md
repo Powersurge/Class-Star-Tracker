@@ -1,5 +1,5 @@
 # Class Star Tracker
-A web-based application that allows teachers /instructors to enroll students, track their progress, & award stars based on student performance or behavior. Using audio fingerprinting technology (via the Meyda library), the app records and matches a teacher's unique audio samples, awarding stars with a simple button press or by holding the spacebar.
+A web-based application that allows teachers/instructors to enroll students, track their progress, & award stars based on student performance or behavior. Using audio fingerprinting technology (via the Meyda library), the app records and matches a teacher's unique audio samples, awarding stars with a simple button press or by holding the spacebar.
 
 Key features:
 
