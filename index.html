@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Star Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Class Star Tracker</h1>
+
+  <div id="controls">
+    <button id="enrollBtn">Enroll Student</button>
+    <button id="clearStarsBtn">Clear All Stars</button>
+    <button id="undoBtn">Undo</button>
+  </div>
+
+  <div id="status">
+    <span id="statusText">Ready</span>
+  </div>
+
+  <!-- Student count -->
+  <div id="studentCount">Students: 0</div>
+
+  <!-- Star table -->
+  <table id="starTable">
+    <tr>
+      <th onclick="sortTable('name')">Student <span id="nameSortArrow">⇅</span></th>
+      <th onclick="sortTable('stars')">Stars <span id="starsSortArrow">⇅</span></th>
+      <th>Actions</th>
+    </tr>
+  </table>
+
+  <div id="spacebarNote">
+    Hold SPACE to award a star
+  </div>
+
+  <!-- Back to Top button -->
+  <button id="backToTop" title="Back to top">↑ Top</button>
+
+  <!-- Enrollment modal -->
+  <div id="enrollModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Enroll Student</h2>
+      <label for="studentName">Student Name:</label>
+      <input type="text" id="studentName">
+      <button id="recordEnroll">Record Name</button>
+      <p>Record 10 samples for best recognition</p>
+    </div>
+  </div>
+
+  <!-- Meyda library -->
+  <script src="meyda.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
