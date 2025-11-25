@@ -235,10 +235,10 @@ function renderTable() {
       <td>${s.name}</td>
       <td>${'⭐'.repeat(s.stars)} (${s.stars})</td>
       <td>
-        <button class="add-star-btn" data-index="${idx}" title="Add Star">⭐</button>
+        <button class="add-star-btn" data-index="${idx}" title="Add a Star">⭐</button>
         <button class="remove-star-btn" data-index="${idx}" title="Remove a Star">❌</button>
         <button class="rerecord-btn" data-index="${idx}" title="Re-record Samples">🎤</button>
-        <button class="drop-student-btn" data-index="${idx}" title="Drop Student">🗑️</button>
+        <button class="drop-student-btn" data-index="${idx}" title="Drop ${s.name}">🗑️</button>
       </td>
     `;
     table.appendChild(row);
