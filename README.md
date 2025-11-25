@@ -3,16 +3,11 @@ A web-based application that allows teachers or instructors to enroll students, 
 
 Key features:
 
-Enroll students and record their unique audio samples.
-
-Award stars for student performance, with the ability to add or remove stars.
-
-Undo actions to revert changes.
-
-Clear all stars for a fresh start.
-
-Sort students by name or stars.
-
-Visual feedback with automatic scrolling to highlight star activity.
+-Enroll students and record their unique audio samples.
+-Award stars for student performance, with the ability to add or remove stars.
+-Undo actions to revert changes.
+-Clear all stars for a fresh start.
+-Sort students by name or stars.
+-Visual feedback with automatic scrolling to highlight star activity.
 
 The app also includes a back-to-top button for easy navigation and a clean, user-friendly interface for managing student data.
